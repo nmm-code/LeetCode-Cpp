@@ -1,4 +1,15 @@
-BasedOnStyle: LLVM
+BasedOnStyle: Google
 AccessModifierOffset: -4
 IndentWidth: 4
-
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveMacros: Consecutive
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AllowShortLambdasOnASingleLine: None
+AlwaysBreakTemplateDeclarations: Yes
+AllowShortEnumsOnASingleLine: false
+BraceWrapping: 
+  AfterClass: false
+  AfterEnum: true
+  AfterFunction: false

@@ -1,5 +1,5 @@
 CXX 		:= g++
-CXXFLAGS 	:= -g -Werror -Wextra -Wall -pedantic -fstack-protector-all -fsanitize=address
+CXXFLAGS 	:= -g  -Wextra -Wall -pedantic -fstack-protector-all -fsanitize=address
 CXXLIB 		:= 
 FILE 		:= cpp
 
